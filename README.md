@@ -13,7 +13,7 @@ pre-requisite: Make sure you have jdk installed and set in your path
     ```
     Example: (windows) gradlew.bat bootRun -Pargs=SaaS=./SaaSBig.csv,SW=./SWBig.csv
     Example: (Linux)
-                       chmod 777 gradlew 
+                       sudo chmod 777 gradlew 
                        sudo ./gradlew bootRun -Pargs=SaaS=./SaaSBig.csv,SW=./SWBig.csv
     ```
     The parameters "SaaS=" and "SW=" will tell the app whether you are uploading SaaS group parts or SW group parts
