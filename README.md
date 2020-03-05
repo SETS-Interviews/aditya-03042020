@@ -25,11 +25,11 @@ NOTES:
 1) Duplicate data entry rules (Part Number field is unique):
 We are assuming that irrespective of start date, end date, add date, modified date or active flag 
 the data that is entered most recent is the correct data 
-this most recent data will override any data that is a duplicate Part Number record in the NoSQL DB
+This most recent data will override any data that is a duplicate Part Number record in the NoSQL DB
 
 This keeps our approach simple to understand for this proof of concept
 
 2) We are using In Memory MongoDB to satisfy NoSQL DB requirements -- because of this, the loaded data will remain in memory as long as the app is running.
-Upong restart -- the date is loaded from scratch
+Upon restart -- the date is loaded from scratch
 
 3) We are using Spring Boot along with Gradle framework to satisfy web application requirement
