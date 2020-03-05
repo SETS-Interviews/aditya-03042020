@@ -4,9 +4,10 @@ Instructions steps to launch the application:
 1) Paste the CSV files in the project root directory
 
 2) Start the project with command line arguments.
-    \n Example: (windows) gradlew.bat bootRun -Pargs=SaaS=./SaaSBig.csv,SW=./SWBig.csv
-    \n Example: (Linux) gradlew bootRun -Pargs=SaaS=./SaaSBig.csv,SW=./SWBig.csv
-    
+```
+    Example: (windows) gradlew.bat bootRun -Pargs=SaaS=./SaaSBig.csv,SW=./SWBig.csv
+    Example: (Linux) gradlew bootRun -Pargs=SaaS=./SaaSBig.csv,SW=./SWBig.csv
+```
     The parameters "SaaS=" and "SW=" will tell the app whether you are uploading SaaS group parts or SW group parts
     Note: 1) Use only CSV file types
           2) Provide atleast one CSV file
