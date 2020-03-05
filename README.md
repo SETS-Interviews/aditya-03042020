@@ -24,7 +24,7 @@ Instructions steps to launch the application:
 NOTES:    
 1) Duplicate data entry rules (Part Number field is unique):
 We are assuming that irrespective of start date, end date, add date, modified date or active flag 
-the data that is entered most recent is the correct data 
+the data that is entered most recent is the correct data.
 This most recent data will override any data that is a duplicate Part Number record in the NoSQL DB
 
 This keeps our approach simple to understand for this proof of concept
