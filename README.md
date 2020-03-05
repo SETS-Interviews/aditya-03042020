@@ -1,9 +1,11 @@
 # aditya-03042020
 
 Instructions steps to launch the application:
-1) Paste the CSV files in the project root directory
+1) git clone this repository and cd into the directory
 
-2) Start the project with command line arguments.
+2) use the existing CSV files are paste new CSV files in the project root directory
+
+2) Start the project with command line arguments from a terminal.
     ```
     Example: (windows) gradlew.bat bootRun -Pargs=SaaS=./SaaSBig.csv,SW=./SWBig.csv
     Example: (Linux) gradlew bootRun -Pargs=SaaS=./SaaSBig.csv,SW=./SWBig.csv
