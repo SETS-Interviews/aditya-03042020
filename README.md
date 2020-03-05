@@ -7,7 +7,7 @@ pre-requisite: Make sure you have jdk installed and set in your path
 
 1) git clone this repository and cd into the directory
 
-2) use the existing CSV files are paste new CSV files in the project root directory
+2) use the existing CSV files OR paste new CSV files in the project root directory
 
 3) Start the project with command line arguments from a terminal.
     ```
