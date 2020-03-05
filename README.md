@@ -1,7 +1,9 @@
 # aditya-03042020
 
 Instructions steps to launch the application:
+```
 pre-requisite: Make sure you have jdk installed and set in your path
+```
 
 1) git clone this repository and cd into the directory
 
