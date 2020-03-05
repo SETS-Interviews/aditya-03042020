@@ -1,7 +1,7 @@
 # aditya-03042020
 
 Instructions steps to launch the application:
-1) Paste the CVS files in the project root directory
+1) Paste the CSV files in the project root directory
 
 2) Start the project with command line arguments.
     Example: (windows) gradlew.bat bootRun -Pargs=SaaS=./SaaSBig.csv,SW=./SWBig.csv
