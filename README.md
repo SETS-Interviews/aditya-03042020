@@ -1,6 +1,8 @@
 # aditya-03042020
 
 Instructions steps to launch the application:
+pre-requisite: Make sure you have jdk installed and set in your path
+
 1) git clone this repository and cd into the directory
 
 2) use the existing CSV files are paste new CSV files in the project root directory
@@ -8,7 +10,9 @@ Instructions steps to launch the application:
 3) Start the project with command line arguments from a terminal.
     ```
     Example: (windows) gradlew.bat bootRun -Pargs=SaaS=./SaaSBig.csv,SW=./SWBig.csv
-    Example: (Linux) gradlew bootRun -Pargs=SaaS=./SaaSBig.csv,SW=./SWBig.csv
+    Example: (Linux)
+                       chmod 777 gradlew 
+                       sudo ./gradlew bootRun -Pargs=SaaS=./SaaSBig.csv,SW=./SWBig.csv
     ```
     The parameters "SaaS=" and "SW=" will tell the app whether you are uploading SaaS group parts or SW group parts
     Note: ```1) Use only CSV file types
