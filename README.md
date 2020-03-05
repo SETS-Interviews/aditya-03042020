@@ -4,10 +4,10 @@ Instructions steps to launch the application:
 1) Paste the CSV files in the project root directory
 
 2) Start the project with command line arguments.
-```
+    ```
     Example: (windows) gradlew.bat bootRun -Pargs=SaaS=./SaaSBig.csv,SW=./SWBig.csv
     Example: (Linux) gradlew bootRun -Pargs=SaaS=./SaaSBig.csv,SW=./SWBig.csv
-```
+    ```
     The parameters "SaaS=" and "SW=" will tell the app whether you are uploading SaaS group parts or SW group parts
     Note: 1) Use only CSV file types
           2) Provide atleast one CSV file
@@ -16,12 +16,12 @@ Instructions steps to launch the application:
     http://localhost:9090/Reference/partNumber/
     
     KEEP IN MIND THAT YOU CAN INPUT REGULAR EXPRESSION TO SEARCH FOR PART NUMBER BUT THE RESULTING PART NUMBERS LIST IS ALWAYS CAPPED TO A MAXIMUM OF 10
-    
+    ```
     Example Search input
         SW
         SA
         SWPT000001
-
+    ```
 NOTES:    
 1) Duplicate data entry rules (Part Number field is unique):
 We are assuming that irrespective of start date, end date, add date, modified date or active flag 
