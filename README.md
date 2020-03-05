@@ -17,7 +17,7 @@ Instructions steps to launch the application:
     
     KEEP IN MIND THAT YOU CAN INPUT REGULAR EXPRESSION TO SEARCH FOR PART NUMBER BUT THE RESULTING PART NUMBERS LIST IS ALWAYS CAPPED TO A MAXIMUM OF 10
     ```
-    Example Search input
+    Example Search input:
         SW
         SA
         SWPT000001
