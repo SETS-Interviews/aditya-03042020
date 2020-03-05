@@ -5,7 +5,7 @@ Instructions steps to launch the application:
 
 2) use the existing CSV files are paste new CSV files in the project root directory
 
-2) Start the project with command line arguments from a terminal.
+3) Start the project with command line arguments from a terminal.
     ```
     Example: (windows) gradlew.bat bootRun -Pargs=SaaS=./SaaSBig.csv,SW=./SWBig.csv
     Example: (Linux) gradlew bootRun -Pargs=SaaS=./SaaSBig.csv,SW=./SWBig.csv
@@ -15,7 +15,7 @@ Instructions steps to launch the application:
              2) Provide atleast one CSV file
           ```   
 
-3) Once the application is launched you can view the loaded data in browser by lunching the following url:
+4) Once the application is launched you can view the loaded data in browser by lunching the following url:
     http://localhost:9090/Reference/partNumber/
     
     KEEP IN MIND THAT YOU CAN INPUT REGULAR EXPRESSION TO SEARCH FOR PART NUMBER BUT THE RESULTING PART NUMBERS LIST IS ALWAYS CAPPED TO A MAXIMUM OF 10
